@@ -62,7 +62,7 @@ pluggy==0.13.1
     # via pytest
 py==1.10.0
     # via pytest
-pylint==2.8.2
+pylint==2.8.3
     # via -r requirements-dev.in
 pyparsing==2.4.5
     # via packaging
@@ -114,14 +114,10 @@ toml==0.10.2
     #   pep517
     #   pylint
     #   pytest
-typed-ast==1.4.2; python_version < '3.9'
-    # via
-    #   black
-    #   mypy
+typed-ast==1.4.2
+    # via mypy
 typing-extensions==3.7.4.3
-    # via
-    #   black
-    #   mypy
+    # via mypy
 urllib3==1.25.8
     # via requests
 wasmer==0.3.0
